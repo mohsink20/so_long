@@ -13,13 +13,12 @@ III. [Mandatory part](#iv-mandatory-part)
   III.2 [Graphic management](#iv2-graphic-management)  
   III.3 [Map](#iv3-map)  
 IV. [Bonus part](#v-bonus-part)  
-V. [Examples](#vi-examples)  
-VI. [Submission and peer-evaluation](#vii-submission-and-peer-evaluation)
+V. [Submission and peer-evaluation](#vii-submission-and-peer-evaluation)
 
-## II. Objectives
+## I. Objectives
 It’s time for you to create a basic computer graphics project! "so_long" will help you improve your skills in the following areas: window management, event handling, colors, textures, and so forth. You are going to use the school graphical library: the MiniLibX! This library was developed internally and includes basic necessary tools to open a window, create images and deal with keyboard and mouse events. The other goals are similar to every other goal for this first year: being rigorous, level up in C programming, use basic algorithms, do some information research, and so forth.
 
-## III. Common Instructions
+## II. Common Instructions
 - Your project must be written in C.
 - Your project must be written in accordance with the Norm. If you have bonus files/functions, they are included in the norm check and you will receive a 0 if there is a norm error inside.
 - Your functions should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. If this happens, your project will be considered non-functional and will receive a 0 during the evaluation.
@@ -28,7 +27,7 @@ It’s time for you to create a basic computer graphics project! "so_long" will 
 - Your Makefile must at least contain the rules $(NAME), all, clean, fclean and re.
 - To turn in bonuses to your project, you must include a rule bonus to your Makefile, which will add all the various headers, libraries or functions that are forbidden on the main part of the project. Bonuses must be in a different file _bonus.{c/h} if the subject does not specify anything else. Mandatory and bonus part evaluation is done separately.
 
-## IV. Mandatory part
+## III. Mandatory part
 ### III.1 Game
 - The player’s goal is to collect every collectible present on the map, then escape choosing the shortest possible route.
 - The W, A, S, and D keys must be used to move the main character.
@@ -78,7 +77,7 @@ It’s time for you to create a basic computer graphics project! "so_long" will 
 
 - If any misconfiguration of any kind is encountered in the file, the program must exit in a clean way, and return "Error\n" followed by an explicit error message of your choice.
 
-## V. Bonus part
+## IV. Bonus part
 Usually, you would be encouraged to develop your own original extra features. However, there will be much more interesting graphic projects later. They are waiting for you!! Don’t lose too much time on this assignment!
 - You are allowed to use other functions to complete the bonus part as long as their use is justified during your evaluation. Be smart!
 - You will get extra points if you:
@@ -87,13 +86,5 @@ Usually, you would be encouraged to develop your own original extra features. Ho
   - Display the movement count directly on the screen instead of writing it in the shell.
 - You can add files/folders based on bonuses as needed.
 
-## VI. Examples
-so_long examples showing terrible taste in graphic design (almost worth some bonus points)!
-
-![Screenshot from 2024-01-05 23-18-42](https://github.com/mohsink20/so_long/assets/130535205/8cc38a2c-bd6f-4a3e-9ba0-3db50af5891f)
-
-![Screenshot from 2024-01-05 23-18-25](https://github.com/mohsink20/so_long/assets/130535205/746a6be2-0bec-4f6a-b335-aa1df05c9462)
-
-
-## VII. Submission and peer-evaluation
+## V. Submission and peer-evaluation
 Turn in your assignment in your Git repository as usual. Only the work inside your repository will be evaluated during the defense. Don’t hesitate to double-check the names of your files to ensure they are correct. As these assignments are not verified by a program, feel free to organize your files as you wish, as long as you turn in the mandatory files and comply with the requirements.

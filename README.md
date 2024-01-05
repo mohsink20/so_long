@@ -56,6 +56,28 @@ It’s time for you to create a basic computer graphics project! "so_long" will 
 - You have to check if there’s a valid path in the map.
 - You must be able to parse any kind of map, as long as it respects the above rules.
 
+#### Example Maps:
+1. A simple valid map:
+   ```plaintext
+   1111111111111
+   10010000000C1
+   1000011111001
+   1P0011E000001
+   1111111111111
+   ```
+
+2. Another example of a minimal .ber map:
+   ```plaintext
+   1111111111111111111111111111111111
+   1E0000000000000C00000C000000000001
+   1010010100100000101001000000010101
+   1010010010101010001001000000010101
+   1P0000000C00C0000000000000000000C1
+   1111111111111111111111111111111111
+   ```
+
+- If any misconfiguration of any kind is encountered in the file, the program must exit in a clean way, and return "Error\n" followed by an explicit error message of your choice.
+
 ## V. Bonus part
 Usually, you would be encouraged to develop your own original extra features. However, there will be much more interesting graphic projects later. They are waiting for you!! Don’t lose too much time on this assignment!
 - You are allowed to use other functions to complete the bonus part as long as their use is justified during your evaluation. Be smart!

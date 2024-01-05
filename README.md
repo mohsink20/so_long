@@ -90,5 +90,10 @@ Usually, you would be encouraged to develop your own original extra features. Ho
 ## VI. Examples
 so_long examples showing terrible taste in graphic design (almost worth some bonus points)!
 
+![Screenshot from 2024-01-05 23-18-42](https://github.com/mohsink20/so_long/assets/130535205/8cc38a2c-bd6f-4a3e-9ba0-3db50af5891f)
+
+![Screenshot from 2024-01-05 23-18-25](https://github.com/mohsink20/so_long/assets/130535205/746a6be2-0bec-4f6a-b335-aa1df05c9462)
+
+
 ## VII. Submission and peer-evaluation
 Turn in your assignment in your Git repository as usual. Only the work inside your repository will be evaluated during the defense. Don’t hesitate to double-check the names of your files to ensure they are correct. As these assignments are not verified by a program, feel free to organize your files as you wish, as long as you turn in the mandatory files and comply with the requirements.
